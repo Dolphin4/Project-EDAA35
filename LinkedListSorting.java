@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Java {
+public class LinkedListSorting {
 	
 	public static void main(String[] args) {
 		File in = new File(args[0]);
@@ -36,12 +36,12 @@ public class Java {
 			System.out.println("Output file not found, why wasn't it created?");
 			return;
 		}
-		writer.println("Löpnummer, Tid");
+		writer.println("LÃ¶pnummer, Tid");
 		for(int i = 1; i <= sortTimes; i++){
 			@SuppressWarnings("unchecked")
 			LinkedList<Integer> temp = (LinkedList<Integer>) list.clone();
 			long start = System.nanoTime();
-			Collections.sort(temp);
+			"Insert sorting algorithm here".sort(temp);
 			long stop = System.nanoTime();
 			String output = i + ", " + (stop - start);
 			writer.println(output);

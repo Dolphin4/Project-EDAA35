@@ -1,4 +1,4 @@
-##AlmostsortedBubble
+AlmostsortedBubble
 t = 114.25, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
@@ -60,11 +60,6 @@ alternative hypothesis: true mean is not equal to 0
 sample estimates:
 mean of x 
  242900.5
-
-
-
-
-
 
 AlmostsortedMerge
 t = 39.694, df = 99, p-value < 2.2e-16
@@ -129,11 +124,6 @@ sample estimates:
 mean of x 
   6211548
  
-
-
-
-
-
 RandomHeapArray
 t = 149.66, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
@@ -196,11 +186,6 @@ alternative hypothesis: true mean is not equal to 0
 sample estimates:
 mean of x 
   6604065
-
-
-
-
-
 
 RandomQuickArray
 t = 27.101, df = 99, p-value < 2.2e-16
@@ -282,9 +267,6 @@ alternative hypothesis: true mean is not equal to 0
 sample estimates:
 mean of x 
  16764447
-
-
-
 
 ReverseMergeArray
 t = 76.985, df = 99, p-value < 2.2e-16
@@ -411,34 +393,3 @@ alternative hypothesis: true mean is not equal to 0
 sample estimates:
 mean of x 
  588252.5
- 
-
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
- 
-
-
-
- 
-
- 

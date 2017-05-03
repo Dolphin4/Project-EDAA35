@@ -1,0 +1,444 @@
+##AlmostsortedBubble
+t = 114.25, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 476138.8 492969.1
+sample estimates:
+mean of x 
+   484554
+
+AlmostsortedBubbleArray
+t = 326.96, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 758090.3 767347.5
+sample estimates:
+mean of x 
+ 762718.9 
+
+AlmostsortedHeap
+t = 376.72, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 6756254 6827803
+sample estimates:
+mean of x 
+  6792029 
+
+AlmostsortedHeapArray
+t = 136.9, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 139029.4 143118.7
+sample estimates:
+mean of x 
+ 141074.1
+
+AlmostsortedInsertion
+t = 357.57, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 3503124 3542220
+sample estimates:
+mean of x 
+  3522672
+
+AlmostsortedInsertionArray
+t = 88.408, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 25042.86 26192.79
+sample estimates:
+mean of x 
+ 25617.82
+
+AlmostsortedJava
+t = 54.203, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 234008.6 251792.4
+sample estimates:
+mean of x 
+ 242900.5
+
+
+
+
+
+
+AlmostsortedMerge
+t = 39.694, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 15811076 17474952
+sample estimates:
+mean of x 
+ 16643014
+
+AlmostsortedMergeArray
+t = 58.125, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 91296.08 97749.56
+sample estimates:
+mean of x 
+ 94522.82
+
+AlmostsortedQuick
+t = 71.514, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 91094902 96294198
+sample estimates:
+mean of x 
+ 93694550
+
+AlmostsortedQuickArray
+t = 26.146, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 1999079 2327423
+sample estimates:
+mean of x 
+  2163251
+ 
+RandomBubble
+t = 151.68, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 17047451 17499373
+sample estimates:
+mean of x 
+ 17273412
+
+RandomBubbleArray
+t = 677.82, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 760095.7 764558.9
+sample estimates:
+mean of x 
+ 762327.3
+
+RandomHeap
+t = 960.87, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 6198721 6224375
+sample estimates:
+mean of x 
+  6211548
+ 
+
+
+
+
+
+RandomHeapArray
+t = 149.66, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 138374.3 142092.8
+sample estimates:
+mean of x 
+ 140233.6
+
+RandomInsertion
+t = 720.24, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 153885549 154735782
+sample estimates:
+mean of x 
+154310666
+
+RandomInsertionArray
+t = 36.888, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 17178.19 19131.29
+sample estimates:
+mean of x 
+ 18154.74
+
+RandomJava
+t = 77.687, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 462765.6 487024.2
+sample estimates:
+mean of x 
+ 474894.9
+
+RandomMerge
+t = 55.541, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 19433270 20873217
+sample estimates:
+mean of x 
+ 20153244
+
+RandomMergeArray
+t = 58.565, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 87311.60 93435.37
+sample estimates:
+mean of x 
+ 90373.48 
+
+RandomQuick
+t = 37.301, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 6252764 6955367
+sample estimates:
+mean of x 
+  6604065
+
+
+
+
+
+
+RandomQuickArray
+t = 27.101, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 2088970 2419027
+sample estimates:
+mean of x 
+  2253998
+
+ReverseBubble
+t = 93.812, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 24525477 25585369
+sample estimates:
+mean of x 
+ 25055423
+
+ReverseBubbleArray
+t = 254.01, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 767556.5 779642.7
+sample estimates:
+mean of x 
+ 773599.6
+
+ReverseHeap
+t = 50.501, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 5274536 5705963
+sample estimates:
+mean of x 
+  5490250
+
+ReverseHeapArray
+t = 71.424, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 144521.0 152780.2
+sample estimates:
+mean of x 
+ 148650.6 
+
+ReverseInsertion
+t = 218.3, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 256194386 260894442
+sample estimates:
+mean of x 
+258544414
+
+ReverseInsertionArray
+t = 36.193, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 15838.10 17675.43
+sample estimates:
+mean of x 
+ 16756.77
+
+ReverseJava
+t = 64.519, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 148358.7 157773.5
+sample estimates:
+mean of x 
+ 153066.1 
+
+ReverseMerge
+t = 1245.1, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 16737731 16791164
+sample estimates:
+mean of x 
+ 16764447
+
+
+
+
+ReverseMergeArray
+t = 76.985, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 88021.95 92679.35
+sample estimates:
+mean of x 
+ 90350.65
+
+ReverseQuick
+t = 1237.8, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 288340250 289266132
+sample estimates:
+mean of x 
+288803191
+
+ReverseQuickArray
+t = 26.889, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 1837161 2129905
+sample estimates:
+mean of x 
+  1983533
+
+SortedBubble
+t = 59.238, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+  97682.04 104452.64
+sample estimates:
+mean of x 
+ 101067.3 
+
+SortedBubbleArray
+t = 886.12, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 756491.6 759887.2
+sample estimates:
+mean of x 
+ 758189.4 
+
+SortedHeap
+t = 258.66, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 6879007 6985363
+sample estimates:
+mean of x 
+  6932185
+
+SortedHeapArray
+t = 106.34, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 142623.3 148047.1
+sample estimates:
+mean of x 
+ 145335.2
+
+SortedInsertion
+t = 292.32, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 765601.9 776066.5
+sample estimates:
+mean of x 
+ 770834.2
+
+SortedInsertionArray
+t = 92.563, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 25538.89 26657.80
+sample estimates:
+mean of x 
+ 26098.34
+
+SortedJava
+t = 54.257, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 138704.5 149234.6
+sample estimates:
+mean of x 
+ 143969.5
+
+SortedMerge
+t = 22.427, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 15186062 18134089
+sample estimates:
+mean of x 
+ 16660075
+
+SortedMergeArray
+t = 89.607, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 73733.12 77072.48
+sample estimates:
+mean of x 
+  75402.8 
+ 
+SortedQuick
+t = 623.23, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 349319341 351550762
+sample estimates:
+mean of x 
+350435051
+
+SortedQuickArray
+t = 96.634, df = 99, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 576173.6 600331.3
+sample estimates:
+mean of x 
+ 588252.5
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+
+
+
+ 
+
+ 

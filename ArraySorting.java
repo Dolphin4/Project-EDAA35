@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class MergeArray {
+public class ArraySorting {
 	public static void main(String[] args)
 	{
 		String fileName = args[0];
@@ -15,22 +15,14 @@ public class MergeArray {
 		Scanner scanner = createScanner(file);
 		int i = 0;
 		while(scanner.hasNext()){
-//			System.out.println(scanner.nextLine());
 			list[i] = Integer.parseInt(scanner.nextLine());
 			i++;
 		}
 		
-//		for(Integer i : list){
-//			System.out.print(i + " ");
-//		}
-//		System.out.println(list.size());
 		String fileName2 = args[1];
 		createFile(fileName2);
 		
 		runTests(list, Integer.parseInt(args[2]), fileName2);
-//		for(Integer i : list2){
-//			System.out.print(i + " ");
-//		}	
 	}
 	
 	public static void runTests(int[] list, int j, String fileName){
@@ -39,11 +31,9 @@ public class MergeArray {
 			fw.write("Test,Tid");
 			for(int i = 1; i <= j; i++){
 				long startTime = System.nanoTime();
-				MergeSortArray.sort(list);
-				//MergeSort.sort(newList);
+				"Insert sorting algorithm here".sort(list);
 				long estimatedTime = System.nanoTime() - startTime;
 				fw.write("\n" + i + "," + estimatedTime);
-//				System.out.println(i + "," + estimatedTime);
 			}
 			fw.close();
 			

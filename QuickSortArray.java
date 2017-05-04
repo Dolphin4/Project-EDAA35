@@ -1,9 +1,5 @@
-import java.util.LinkedList;
-import java.util.Random;
-
 public class QuickSort {
-  
-	
+
 	public static int[] sort(int[] list){
 		sort(list, 0, list.length-1);
 		return list;

@@ -1,4 +1,4 @@
-public class MergeSort{
+public class MergeSortArray{
 	private static int[] list;
         private static int[] tempList;
         private static int length;

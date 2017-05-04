@@ -11,8 +11,7 @@ public class HeapSort {
 			N = N - 1;
 			maxheap(table, 0);
 		}
-		// buildHeap(table);
-		// shrinkHeap(table);
+
 	}
 
 	private static void maxheap(int[] table, int i) {
@@ -29,6 +28,7 @@ public class HeapSort {
 			swap(table, i, max);
 			maxheap(table, max);
 		}
+		
 	}
 
 	private static void heapify(int[] table) {
@@ -36,6 +36,7 @@ public class HeapSort {
 		for (int i = N / 2; i >= 0; i--) {
 			maxheap(table, i);
 		}
+		
 	}
 
 	private static void swap(int[]table, int parent, int child) {
@@ -44,30 +45,6 @@ public class HeapSort {
 		table[child] = temp;
 	}
 
-	/*
-	 * private static void buildHeap(LinkedList<Integer> table){ int n = 1;
-	 * while (n < table.size()){ n++; int child = n-1; int parent = (child-1)/2;
-	 * while (parent >= 0 && (table.get(parent) < (table.get(child)))){
-	 * swap(table, parent, child); child = parent; parent = (child - 1)/2; } } }
-	 * 
-	 * private static void shrinkHeap(LinkedList<Integer> table){ int n =
-	 * table.size(); while(n > 0){ n--; swap(table, 0, n); // Index of parent
-	 * int parent = 0; // Reheap while(true){ // Index of left child int
-	 * leftChild = 2 * parent + 1; // If child index is out of heap bounds
-	 * if(leftChild >= n){ break; } // Index of right child int rightChild =
-	 * leftChild - 1; // Choose which child is biggest int maxChild = leftChild;
-	 * if(rightChild < n && (table.get(leftChild) < (table.get(rightChild)))){
-	 * maxChild = rightChild; } // If parent smaller than bigger child, switch
-	 * if((table.get(parent) < (table.get(maxChild)))){ swap(table, parent,
-	 * maxChild); parent = maxChild; } else { break; } }
-	 * 
-	 * }
-	 * 
-	 * }
-	 * 
-	 */
-
-	// //Test method for Heap sort by n random numbers
 	public static void main(String[] args) {
 		int n = 10000;
 		int[] list = new int[800];
@@ -83,4 +60,5 @@ public class HeapSort {
 		}
 	
 	}
+	
 }

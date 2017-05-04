@@ -22,5 +22,4 @@ public class Bubblesort{
         array[i] = array[j];
         array[j] = temp;
     }
-	
 }

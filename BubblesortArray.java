@@ -1,5 +1,3 @@
-import java.util.Random;
-
 public class Bubblesort{
 	public static int[] sort(int[] array){
 		

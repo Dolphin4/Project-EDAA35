@@ -24,7 +24,6 @@ public class HeapSort {
 			swap(table, i, max);
 			maxheap(table, max);
 		}
-	
 	}
 
 	private static void heapify(int[] table) {

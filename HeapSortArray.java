@@ -11,7 +11,6 @@ public class HeapSort {
 			N = N - 1;
 			maxheap(table, 0);
 		}
-
 	}
 
 	private static void maxheap(int[] table, int i) {
@@ -28,7 +27,7 @@ public class HeapSort {
 			swap(table, i, max);
 			maxheap(table, max);
 		}
-		
+	
 	}
 
 	private static void heapify(int[] table) {
@@ -36,7 +35,6 @@ public class HeapSort {
 		for (int i = N / 2; i >= 0; i--) {
 			maxheap(table, i);
 		}
-		
 	}
 
 	private static void swap(int[]table, int parent, int child) {
@@ -58,7 +56,5 @@ public class HeapSort {
 		for(int i = 0; i < 800; i++){
 			System.out.println(list[i] + " ");
 		}
-	
 	}
-	
 }

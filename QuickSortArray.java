@@ -1,33 +1,44 @@
-public class QuickSort {
+public class QuickSortArray{
+	private static int[] numbers;
+    private static int number;
 
-	public static int[] sort(int[] list){
-		sort(list, 0, list.length-1);
-		return list;
-	}
+    public static void sort(int[] values) {
+            if (values ==null || values.length==0){
+                    return;
+            }
+            numbers = values;
+            number = values.length;
+            quicksort(0, number - 1);
+    }
 
-	private static void sort(int[] list, int low, int high) {
-		if(low < high){
-			int pi = partition(list, low, high);
-			sort(list, low, pi-1);
-			sort(list, pi+1, high);
-		}
-	}
+    private static void quicksort(int low, int high) {
+            int i = low, j = high;
+            int pivot = numbers[low + (high-low)/2];
 
-	private static int partition(int[] list, int low, int high) {
-		int pivot = list[high];
-		int i = low - 1;
-		for(int j = low; j <=high-1; j++){
-			int next = list[j];
-			if(next <= pivot){
-				i++;
-				int temp = list[i];
-				list[i] = next;
-				list[j] = temp;
-			}
-		}
-		int temp = list[i+1];
-		list[i+1] =  list[high];
-		list[high] = temp;
-		return i+1;
-	}
+            while (i <= j) {
+                    while (numbers[i] < pivot) {
+                            i++;
+                    }
+                    while (numbers[j] > pivot) {
+                            j--;
+                    }
+                    if (i <= j) {
+                            exchange(i, j);
+                            i++;
+                            j--;
+                    }
+            }
+            if (low < j){
+            	quicksort(low, j);
+            }
+            if (i < high){
+            	quicksort(i, high);
+            }
+    }
+
+    private static void exchange(int i, int j) {
+            int temp = numbers[i];
+            numbers[i] = numbers[j];
+            numbers[j] = temp;
+    }
 }

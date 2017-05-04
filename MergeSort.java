@@ -1,5 +1,4 @@
 import java.util.LinkedList;
-import java.util.Random;
 
 public class MergeSort{
 	private static LinkedList<Integer> list;

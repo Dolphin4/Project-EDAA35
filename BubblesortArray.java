@@ -1,6 +1,5 @@
-public class Bubblesort{
+public class BubbleSort{
 	public static int[] sort(int[] array){
-		
 		int n = array.length;
         int k;
         for (int m = n; m >= 0; m--) {

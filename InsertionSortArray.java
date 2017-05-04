@@ -1,5 +1,3 @@
-import java.util.Random;
-
 public class InsertionSort {
 	public static int[] sort(int[] list){
 		for(int i = 0; i < list.length; i++){

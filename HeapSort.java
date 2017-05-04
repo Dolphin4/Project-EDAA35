@@ -41,17 +41,4 @@ public class HeapSort {
 		table.set(parent, table.get(child));
 		table.set(child, temp);
 	}
-
-	public static void main(String[] args) {
-		int n = 10;
-		LinkedList<Integer> list = new LinkedList<Integer>();
-		Random rnd = new Random();
-
-		for (int i = 0; i < n; i++) {
-			list.add(rnd.nextInt(n));
-		}
-		System.out.println(list.get(0));
-		HeapSort.sort(list);
-		System.out.println(list);
-	}
 }

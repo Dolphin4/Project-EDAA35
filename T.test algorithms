@@ -7,14 +7,14 @@ sample estimates:
 mean of x 
    484554
 
-AlmostsortedBubbleArray
-t = 326.96, df = 99, p-value < 2.2e-16
+AlmostsortedBubbleArray 
+t = 165.03, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 758090.3 767347.5
+ 759159.0 777636.1
 sample estimates:
 mean of x 
- 762718.9 
+ 768397.5 
 
 AlmostsortedHeap
 t = 376.72, df = 99, p-value < 2.2e-16
@@ -26,13 +26,13 @@ mean of x
   6792029 
 
 AlmostsortedHeapArray
-t = 136.9, df = 99, p-value < 2.2e-16
+t = 95.251, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 139029.4 143118.7
+ 141967.4 148008.0
 sample estimates:
 mean of x 
- 141074.1
+ 144987.7
 
 AlmostsortedInsertion
 t = 357.57, df = 99, p-value < 2.2e-16
@@ -44,13 +44,13 @@ mean of x
   3522672
 
 AlmostsortedInsertionArray
-t = 88.408, df = 99, p-value < 2.2e-16
+t = 222.31, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 25042.86 26192.79
+ 392711.1 399784.5
 sample estimates:
 mean of x 
- 25617.82
+ 396247.8
 
 AlmostsortedJava
 t = 54.203, df = 99, p-value < 2.2e-16
@@ -71,13 +71,13 @@ mean of x
  16643014
 
 AlmostsortedMergeArray
-t = 58.125, df = 99, p-value < 2.2e-16
+t = 93.715, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 91296.08 97749.56
+ 89549.59 93423.66
 sample estimates:
 mean of x 
- 94522.82
+ 91486.62
 
 AlmostsortedQuick
 t = 71.514, df = 99, p-value < 2.2e-16
@@ -89,13 +89,13 @@ mean of x
  93694550
 
 AlmostsortedQuickArray
-t = 26.146, df = 99, p-value < 2.2e-16
+t = 107.2, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 1999079 2327423
+ 58938.77 61161.75
 sample estimates:
 mean of x 
-  2163251
+ 60050.26 
  
 RandomBubble
 t = 151.68, df = 99, p-value < 2.2e-16
@@ -107,13 +107,13 @@ mean of x
  17273412
 
 RandomBubbleArray
-t = 677.82, df = 99, p-value < 2.2e-16
+t = 170.4, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 760095.7 764558.9
+ 766729.4 784796.1
 sample estimates:
 mean of x 
- 762327.3
+ 775762.7
 
 RandomHeap
 t = 960.87, df = 99, p-value < 2.2e-16
@@ -125,13 +125,13 @@ mean of x
   6211548
  
 RandomHeapArray
-t = 149.66, df = 99, p-value < 2.2e-16
+t = 115.94, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 138374.3 142092.8
+ 140185.5 145067.2
 sample estimates:
 mean of x 
- 140233.6
+ 142626.3 
 
 RandomInsertion
 t = 720.24, df = 99, p-value < 2.2e-16
@@ -143,13 +143,13 @@ mean of x
 154310666
 
 RandomInsertionArray
-t = 36.888, df = 99, p-value < 2.2e-16
+t = 248.01, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 17178.19 19131.29
+ 418977.7 425735.7
 sample estimates:
 mean of x 
- 18154.74
+ 422356.7
 
 RandomJava
 t = 77.687, df = 99, p-value < 2.2e-16
@@ -170,13 +170,13 @@ mean of x
  20153244
 
 RandomMergeArray
-t = 58.565, df = 99, p-value < 2.2e-16
+t = 82.957, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 87311.60 93435.37
+ 89804.29 94205.57
 sample estimates:
 mean of x 
- 90373.48 
+ 92004.93 
 
 RandomQuick
 t = 37.301, df = 99, p-value < 2.2e-16
@@ -188,13 +188,13 @@ mean of x
   6604065
 
 RandomQuickArray
-t = 27.101, df = 99, p-value < 2.2e-16
+t = 121.34, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 2088970 2419027
+ 57978.64 59906.36
 sample estimates:
 mean of x 
-  2253998
+  58942.5
 
 ReverseBubble
 t = 93.812, df = 99, p-value < 2.2e-16
@@ -206,13 +206,13 @@ mean of x
  25055423
 
 ReverseBubbleArray
-t = 254.01, df = 99, p-value < 2.2e-16
+t = 218.5, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 767556.5 779642.7
+ 762718.0 776697.5
 sample estimates:
 mean of x 
- 773599.6
+ 769707.7
 
 ReverseHeap
 t = 50.501, df = 99, p-value < 2.2e-16
@@ -224,13 +224,13 @@ mean of x
   5490250
 
 ReverseHeapArray
-t = 71.424, df = 99, p-value < 2.2e-16
+t = 123.84, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 144521.0 152780.2
+ 142008.9 146633.7
 sample estimates:
 mean of x 
- 148650.6 
+ 144321.3 
 
 ReverseInsertion
 t = 218.3, df = 99, p-value < 2.2e-16
@@ -242,13 +242,13 @@ mean of x
 258544414
 
 ReverseInsertionArray
-t = 36.193, df = 99, p-value < 2.2e-16
+t = 267.07, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 15838.10 17675.43
+ 412453.5 418628.0
 sample estimates:
 mean of x 
- 16756.77
+ 415540.7
 
 ReverseJava
 t = 64.519, df = 99, p-value < 2.2e-16
@@ -269,13 +269,13 @@ mean of x
  16764447
 
 ReverseMergeArray
-t = 76.985, df = 99, p-value < 2.2e-16
+t = 120.82, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 88021.95 92679.35
+ 88326.97 91276.66
 sample estimates:
 mean of x 
- 90350.65
+ 89801.81
 
 ReverseQuick
 t = 1237.8, df = 99, p-value < 2.2e-16
@@ -287,13 +287,13 @@ mean of x
 288803191
 
 ReverseQuickArray
-t = 26.889, df = 99, p-value < 2.2e-16
+t = 138.57, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 1837161 2129905
+ 58144.48 59833.82
 sample estimates:
 mean of x 
-  1983533
+ 58989.15
 
 SortedBubble
 t = 59.238, df = 99, p-value < 2.2e-16
@@ -305,13 +305,13 @@ mean of x
  101067.3 
 
 SortedBubbleArray
-t = 886.12, df = 99, p-value < 2.2e-16
+t = 882.23, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 756491.6 759887.2
+ 760905.2 764335.7
 sample estimates:
 mean of x 
- 758189.4 
+ 762620.5 
 
 SortedHeap
 t = 258.66, df = 99, p-value < 2.2e-16
@@ -323,13 +323,13 @@ mean of x
   6932185
 
 SortedHeapArray
-t = 106.34, df = 99, p-value < 2.2e-16
+t = 104.75, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 142623.3 148047.1
+ 141720.4 147193.3
 sample estimates:
 mean of x 
- 145335.2
+ 144456.8 
 
 SortedInsertion
 t = 292.32, df = 99, p-value < 2.2e-16
@@ -341,13 +341,13 @@ mean of x
  770834.2
 
 SortedInsertionArray
-t = 92.563, df = 99, p-value < 2.2e-16
+t = 425.51, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 25538.89 26657.80
+ 391273.2 394939.4
 sample estimates:
 mean of x 
- 26098.34
+ 393106.3 
 
 SortedJava
 t = 54.257, df = 99, p-value < 2.2e-16
@@ -368,13 +368,13 @@ mean of x
  16660075
 
 SortedMergeArray
-t = 89.607, df = 99, p-value < 2.2e-16
+t = 89.787, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 73733.12 77072.48
+ 73048.38 76349.95
 sample estimates:
 mean of x 
-  75402.8 
+ 74699.17 
  
 SortedQuick
 t = 623.23, df = 99, p-value < 2.2e-16
@@ -386,10 +386,10 @@ mean of x
 350435051
 
 SortedQuickArray
-t = 96.634, df = 99, p-value < 2.2e-16
+t = 118.78, df = 99, p-value < 2.2e-16
 alternative hypothesis: true mean is not equal to 0
 95 percent confidence interval:
- 576173.6 600331.3
+ 57181.75 59124.70
 sample estimates:
 mean of x 
- 588252.5
+ 58153.22

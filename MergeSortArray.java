@@ -1,6 +1,3 @@
-import java.util.LinkedList;
-import java.util.Random;
-
 public class MergeSort{
 	private static int[] list;
         private static int[] tempList;
